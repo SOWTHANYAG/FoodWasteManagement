@@ -36,13 +36,15 @@
             <form action="" onsubmit="return validateform()">
 
             <input type="text" name="myname1" placeholder="Your Name" id="name" required>
-            <input type="email" name="myemail" placeholder="Your Email" id="" required>
+            <input type="email" name="myemail" placeholder="Your Email" id="email" required>
             <input type="tel" name="myphone" placeholder="Your Phone No." id="phonenum" required>
             <input type="text" name="myadd" placeholder="Collection Address" id="" required>
+
             <h4>Category</h4>
-            <input type="radio" name="myfood" id="" required> Veg &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-            <input type="radio" name="myfood" id=""> Non-Veg &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-            <input type="radio" name="myfood" id=""> Both 
+                <input type="radio" name="myfood" value="veg" required> Veg &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+<input type="radio" name="myfood" value="nonveg"> Non-Veg &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+<input type="radio" name="myfood" value="both"> Both
+             
             <h4>Quanity (in Kg)</h4>
             <input type="number" name="quantity" id="">
             <h4>Food Preparation Date and Time</h4>
